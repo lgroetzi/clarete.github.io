@@ -1,19 +1,19 @@
 :root {
-    --theme-gruvbox-background:    #282828;
-    --theme-gruvbox-foreground:    #ebdbb2;
+    --theme-gruvbox-background:    #ffffff;
+    --theme-gruvbox-foreground:    #212121;
     --theme-gruvbox-dark-1:        #3c3836;
-    --theme-gruvbox-dark-2:        #504945;
+    --theme-gruvbox-dark-2:        #BDBDBD;
     --theme-gruvbox-dark-3:        #665c54;
-    --theme-gruvbox-dark-4:        #7c6f64;
-    --theme-gruvbox-light-1:       #fdf4c1;
+    --theme-gruvbox-dark-4:        #E7E7E7;
+    --theme-gruvbox-light-1:       #212121;
     --theme-gruvbox-light-2:       #d5c4a1;
     --theme-gruvbox-light-3:       #bdae93;
     --theme-gruvbox-light-4:       #a89984;
     --theme-gruvbox-red:           #fb4934;
-    --theme-gruvbox-orange:        #fe8019;
-    --theme-gruvbox-yellow:        #fabd2f;
-    --theme-gruvbox-green:         #b8bb26;
-    --theme-gruvbox-aqua:          #8ec07c;
+    --theme-gruvbox-orange:        #A56E16;
+    --theme-gruvbox-yellow:        #D48F20;
+    --theme-gruvbox-green:         #FFE3A3;
+    --theme-gruvbox-aqua:          #E3F9BF;
     --theme-gruvbox-blue:          #83a598;
     --theme-gruvbox-purple:        #d3869b;
     --theme-gruvbox-builtin:       var(--theme-gruvbox-orange);

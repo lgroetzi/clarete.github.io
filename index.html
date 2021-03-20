@@ -4,39 +4,46 @@
   <head>
     <meta charset="utf-8">
     <title>clarete &mdash; Home</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/media/css/main.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="/media/img/8bitme.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/media/img/blorgbot.png">
     <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml">
   </head>
   <body>
     
       <div class="social">
-        <div class="container">
+        <div class="nav">
           <ul class="badges">
             <li>
               <a href="mailto:lincoln@clarete.li" alt="Email">
-                <span class="fa fa-envelope-o"></span>EMail
+                <i data-feather="mail"></i>
               </a>
             </li>
             <li>
               <a href="https://github.com/clarete" target="_blank" alt="Github">
-                <span class="fa fa-github-alt"></span>Github
+                <i data-feather="github"></i>
               </a>
             </li>
             <li>
               <a href="/blog/rss.xml" alt="RSS">
-                <span class="fa fa-rss"></span>RSS
+                <i data-feather="rss"></i>
               </a>
             </li>
           </ul>
 
           <a href="/">
-            <img class="avatar" type="image/svg+xml" src="/media/img/8bitme.svg" alt="Me in 8bit" />
+            <img class="avatar" type="image/svg+xml" src="/media/img/blorgbot.svg" alt="Blorgbot Icon" />
           </a>
         </div>
+      </div>
+      <div>
+        <hr />
       </div>
     
 
@@ -45,7 +52,8 @@
         
   <h1>Hi! I&#39;m Lincoln</h1>
 
-  <p>
+<img src="/media/img/trees.png" alt="Italian Trulli">
+<p>
 I'm a human being that deeply enjoys the art of computer
 programming. I'm very curious and interested in various programming
 languages and technologies ranging from web development to systems
@@ -94,6 +102,9 @@ just looking at the sky.
           </div>
         </div>
       
-    </div>
+      </div>
+    <script>
+      feather.replace()
+    </script>
   </body>
 </html>
